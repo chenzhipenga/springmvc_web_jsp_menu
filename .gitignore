@@ -1,0 +1,30 @@
+#target/
+target/
+
+# IDEA #
+.idea/
+*.iml
+
+# gradle #
+.gradle/
+
+# Eclipse #
+.settings/
+.classpath
+.project
+
+# build #
+build/
+
+# Log #
+logs/
+*.log%     
+
+#mac 
+.DS_Store
+
+#svn
+.svn
+/bin/
+
+

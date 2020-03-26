@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="beilei.report.dao.ReportBaseInfoDao">
+    <sql id="columns">
+        <![CDATA[
+        `id`,
+            `user_name` as userName,
+            `branch_name` as branchName,
+            `onwer_name` as onwerName,
+            `onwer_phone` as onwerPhone,
+            `add_time` as addTime,
+            `base_title_id` as baseTitleId,
+            `item1`,
+            `item2`,
+            `item3`,
+            `item4`,
+            `item5`,
+            `item6`,
+            `item7`,
+            `item8`,
+            `item9`,
+            `item10`,
+            `item11`,
+            `item12`,
+            `item13`,
+            `item14`,
+            `item15`,
+            `item16`,
+            `item17`,
+            `item18`,
+            `item19`,
+            `item20`
+
+        ]]>
+    </sql>
+
+
+    <select id="getById" resultType="beilei.report.entity.ReportBaseInfo">
+        select
+        <include refid="columns"/>
+        from report_base_info
+        WHERE
+        id = #{id}
+    </select>
+
+
+</mapper>
