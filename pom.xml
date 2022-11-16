@@ -32,7 +32,7 @@
     <commons.lang.version>2.5</commons.lang.version>
     <commons.codec.version>1.9</commons.codec.version>
     <spring.mvc.validate.version>1.2-SNAPSHOT</spring.mvc.validate.version>
-    <jackson.fastxml.version>2.5.0</jackson.fastxml.version>
+    <jackson.fastxml.version>2.12.7.1</jackson.fastxml.version>
     <servlet.api.version>2.5</servlet.api.version>
     <commons-pool.version>1.6</commons-pool.version>
     <dubbo.version>2.5.3</dubbo.version>
