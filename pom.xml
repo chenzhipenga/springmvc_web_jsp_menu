@@ -20,7 +20,7 @@
 
 
     <!--<spring.version>5.1.9.RELEASE</spring.version>-->
-    <spring.version>4.3.18.RELEASE</spring.version>
+    <spring.version>5.2.20.RELEASE</spring.version>
     <mybatis.version>3.2.8</mybatis.version>
     <tk.mybatis.version>3.4.0</tk.mybatis.version>
     <junit.version>4.12</junit.version>
@@ -76,7 +76,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
-      <version>4.3.1.RELEASE</version>
+      <version>5.2.20.RELEASE</version>
       <exclusions>
         <exclusion>
           <artifactId>spring-context</artifactId>
